@@ -1,0 +1,23 @@
+SET !ERRORIGNORE YES
+SET !REPLAYSPEED FAST
+WAIT SECONDS=3
+URL GOTO=https://www.dailymotion.com/
+
+URL GOTO=https://dai.ly/x8fhb98
+WAIT SECONDS=30
+
+SET !ERRORIGNORE YES
+SET !REPLAYSPEED FAST
+WAIT SECONDS=1
+URL GOTO=https://www.dailymotion.com/
+
+URL GOTO=https://dai.ly/x8fgbgt
+WAIT SECONDS=20
+
+SET !ERRORIGNORE YES
+SET !REPLAYSPEED FAST
+WAIT SECONDS=2
+URL GOTO=https://www.dailymotion.com/
+
+URL GOTO=https://dai.ly/x8fgbgt
+WAIT SECONDS=45
